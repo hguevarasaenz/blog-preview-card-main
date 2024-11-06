@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    font-family: 'Figtree';
+    /* background-color: hsl(47, 88%, 63%); */
+    background-color: #F4D04E;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+
+#section-card{
+    display: grid;
+    place-items: center;
+}
+
+.card-container{
+    background-color: #ffffff;
+    height: 522px;
+    width: 384px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+    border: 1px solid #111111;
+    border-radius: 20px;
+    /* box-shadow: 8px 8px 0 #000000; */
+    filter: drop-shadow(8px 8px 0 #000000);
+
+}
+
+/* .card-container:hover{
+    cursor: pointer;
+} */
+
+picture{
+    display: block;
+}
+
+picture img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+
+.item-presentation{
+    display: flex;
+    flex-direction: column;
+    gap: 12px
+}
+
+.item-presentation span{
+    align-self: start;
+    color: #111111;
+    font-size: 14px;
+    padding: 4px 12px;
+    font-weight: 900;
+    border-radius: 4px;
+    background-color: #F4D04E;
+    text-align: center;
+}
+
+
+p.publication-date{
+    color: #111111;
+    font-size: 14px;
+}
+
+h2.course{
+    color: #111111;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+h2.course:hover {
+    color: #F4D04E;
+    cursor: pointer;
+
+}
+
+p.description{
+    color: #6B6B6B;
+    font-size: 16px;
+}
+
+
+
+
+#item-avatar{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+}
+
+#item-avatar img{
+    width: 32px;
+    height: 32px;
+}
+
+#item-avatar p{
+    font-size: 14px;
+    color:#111111;
+    font-weight: 900;
+}
+
+
+
+footer{
+    margin-top: 16px;
+}
